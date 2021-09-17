@@ -51,7 +51,7 @@ function delete($db,$sql){
     }
     
 }
-// return query such ad SELECT
+// return query such as SELECT
 function select($db,$sql){
     try{
         $stmt = $db->prepare($sql);
